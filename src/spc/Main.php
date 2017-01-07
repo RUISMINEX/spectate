@@ -43,8 +43,7 @@ class Main extends PluginBase implements Listener {
                 }
                 if(strtolower($args[0]) == "on"){
                     $sender->setGamemode(3);
-                        $sender->sendMessage(TextFormat::RED."§bYou are now spectating! 
-						Use /spectate off to stop spectating");
+                        $sender->sendMessage(TextFormat::RED."§bYou are now spectating! Use /spectate off to stop spectating");
             break;
        }
     }

@@ -1,0 +1,8 @@
+name: spectate
+main: spc\Main
+author: TheCGaming
+api: [2.0.0]
+version: 1.0
+commands:
+    spectate:
+       description: "Spectate!"
